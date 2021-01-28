@@ -46,9 +46,21 @@ module.exports = {
         text: "Laravel",
         link: "/memos/",
       },
+      {
+        text: "Plus",
+        ariaLabel: "Plus",
+        items: [
+          {
+            text: "Changelog",
+            link:
+              "https://github.com/d0tcom/laravel-memos/blob/master/CHANGELOG.md",
+          },
+        ],
+      },
     ],
     sidebar: {
       "/memos/": [
+        // Au commencement
         {
           title: "Au commencement",
           collapsable: false,
@@ -58,21 +70,25 @@ module.exports = {
             "creer-un-nouveau-projet-laravel",
           ],
         },
+        // Routing
         {
           title: "Routing",
           collapsable: false,
           children: ["creer-des-routes-laravel"],
         },
+        // Requêtes
         {
           title: "Requêtes",
           collapsable: false,
           children: ["acceder-a-une-requete-dans-une-url-avec-laravel"],
         },
+        // Contrôleurs
         {
           title: "Contrôleurs",
           collapsable: false,
           children: ["creer-un-controleur-sur-laravel"],
         },
+        // Modèles
         {
           title: "Modèles",
           collapsable: false,
@@ -83,11 +99,13 @@ module.exports = {
             "eager-loading-laravel",
           ],
         },
+        // Réponses
         {
           title: "Réponses",
           collapsable: false,
           children: ["creer-et-retourner-des-reponses"],
         },
+        // Views, Blade
         {
           title: "Views, Blade",
           collapsable: false,
@@ -97,6 +115,7 @@ module.exports = {
             "afficher-des-donnees-dans-une-vue",
           ],
         },
+        // Base de données
         {
           title: "Base de donnée",
           collapsable: false,
@@ -110,6 +129,7 @@ module.exports = {
             "seeding-laravel",
           ],
         },
+        // Divers
         {
           title: "Divers",
           collapsable: false,
