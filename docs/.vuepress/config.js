@@ -31,10 +31,10 @@ module.exports = {
    */
   themeConfig: {
     logo: "/assets/img/laravel-logo.svg",
-    repo: "d0tcom/memos-laravel",
+    repo: "d0tcom/laravel-memos",
     repoLabel: "Contribuer à Laravel Mémos",
     editLinks: true,
-    docsRepo: "d0tcom/memos-laravel",
+    docsRepo: "d0tcom/laravel-memos",
     docsDir: "docs",
     editLinkText: "Modifier ou contribuer à cette page.",
     lastUpdated: "Dernière modification",

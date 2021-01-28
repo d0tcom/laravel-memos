@@ -9,6 +9,14 @@ import GlobalLayout from "C:\\Users\\jlebr\\Desktop\\laravel-memos\\node_modules
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-7f4dd718",
+    path: "/memos/acceder-a-une-requete-dans-une-url-avec-laravel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7f4dd718").then(next)
+    },
+  },
+  {
     name: "v-9e14a9c4",
     path: "/",
     component: GlobalLayout,
@@ -33,35 +41,11 @@ export const routes = [
     redirect: "/memos/"
   },
   {
-    name: "v-7f4dd718",
-    path: "/memos/acceder-a-une-requete-dans-une-url-avec-laravel.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7f4dd718").then(next)
-    },
-  },
-  {
     name: "v-1bae6b98",
     path: "/memos/accesseurs-et-mutateurs.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1bae6b98").then(next)
-    },
-  },
-  {
-    name: "v-192ab510",
-    path: "/memos/afficher-des-donnees-dans-une-vue.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-192ab510").then(next)
-    },
-  },
-  {
-    name: "v-3a67ee48",
-    path: "/memos/c-est-quoi-un-modele-laravel.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3a67ee48").then(next)
     },
   },
   {
@@ -73,11 +57,19 @@ export const routes = [
     },
   },
   {
-    name: "v-79bb1b58",
-    path: "/memos/creer-des-layouts-laravel.html",
+    name: "v-3a67ee48",
+    path: "/memos/c-est-quoi-un-modele-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-79bb1b58").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3a67ee48").then(next)
+    },
+  },
+  {
+    name: "v-192ab510",
+    path: "/memos/afficher-des-donnees-dans-une-vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-192ab510").then(next)
     },
   },
   {
@@ -86,6 +78,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-373fef22").then(next)
+    },
+  },
+  {
+    name: "v-79bb1b58",
+    path: "/memos/creer-des-layouts-laravel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-79bb1b58").then(next)
     },
   },
   {
@@ -113,14 +113,6 @@ export const routes = [
     },
   },
   {
-    name: "v-1f1027d8",
-    path: "/memos/creer-un-nouveau-projet-laravel.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1f1027d8").then(next)
-    },
-  },
-  {
     name: "v-6fd9aa90",
     path: "/memos/eager-loading-laravel.html",
     component: GlobalLayout,
@@ -129,19 +121,11 @@ export const routes = [
     },
   },
   {
-    name: "v-010bac7c",
-    path: "/memos/eloquent-laravel.html",
+    name: "v-1f1027d8",
+    path: "/memos/creer-un-nouveau-projet-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-010bac7c").then(next)
-    },
-  },
-  {
-    name: "v-0f9291fa",
-    path: "/memos/enregistrer-des-donnees-dans-une-table.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0f9291fa").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1f1027d8").then(next)
     },
   },
   {
@@ -153,19 +137,11 @@ export const routes = [
     },
   },
   {
-    name: "v-f74abcf8",
-    path: "/memos/gerer-le-css-sur-laravel.html",
+    name: "v-010bac7c",
+    path: "/memos/eloquent-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f74abcf8").then(next)
-    },
-  },
-  {
-    name: "v-23467d74",
-    path: "/memos/installer-les-prerequis-pour-laravel.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-23467d74").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-010bac7c").then(next)
     },
   },
   {
@@ -185,11 +161,19 @@ export const routes = [
     },
   },
   {
-    name: "v-c48dc6d0",
-    path: "/memos/query-builder-laravel.html",
+    name: "v-23467d74",
+    path: "/memos/installer-les-prerequis-pour-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c48dc6d0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-23467d74").then(next)
+    },
+  },
+  {
+    name: "v-f74abcf8",
+    path: "/memos/gerer-le-css-sur-laravel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f74abcf8").then(next)
     },
   },
   {
@@ -201,11 +185,11 @@ export const routes = [
     },
   },
   {
-    name: "v-706be1b8",
-    path: "/memos/se-connecter-a-mysql-et-creer-une-base-de-donnees.html",
+    name: "v-0f9291fa",
+    path: "/memos/enregistrer-des-donnees-dans-une-table.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-706be1b8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0f9291fa").then(next)
     },
   },
   {
@@ -217,11 +201,11 @@ export const routes = [
     },
   },
   {
-    name: "v-6b7b3838",
-    path: "/memos/seeding-laravel.html",
+    name: "v-c48dc6d0",
+    path: "/memos/query-builder-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6b7b3838").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c48dc6d0").then(next)
     },
   },
   {
@@ -230,6 +214,22 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1e4c37d0").then(next)
+    },
+  },
+  {
+    name: "v-6b7b3838",
+    path: "/memos/seeding-laravel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6b7b3838").then(next)
+    },
+  },
+  {
+    name: "v-706be1b8",
+    path: "/memos/se-connecter-a-mysql-et-creer-une-base-de-donnees.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-706be1b8").then(next)
     },
   },
   {
