@@ -1,0 +1,17 @@
+{
+  "name": "laravel-memos",
+  "description": "Quelques mémos, astuces pour le framework Laravel.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jo",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.0",
+    "@vuepress/plugin-medium-zoom": "^1.8.0",
+    "vuepress": "^1.8.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  }
+}
