@@ -1,6 +1,8 @@
-# Introduction
+# 📝 Laravel Memorandum
 
 Bienvenue sur **Laravel Memorandum**, ce site a pour vocation de regrouper des astuces, mémos et petits exemples pour la communauté francophone de Laravel.
+
+[Accéder à Laravel Memorandum](https://laravel-memorandum.netlify.app/)
 
 Il y a toujours de nouvelles choses à apporter, modifier, suggérer ou corriger.
 
