@@ -41,19 +41,19 @@ export const routes = [
     redirect: "/memos/"
   },
   {
+    name: "v-192ab510",
+    path: "/memos/afficher-des-donnees-dans-une-vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-192ab510").then(next)
+    },
+  },
+  {
     name: "v-1bae6b98",
     path: "/memos/accesseurs-et-mutateurs.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1bae6b98").then(next)
-    },
-  },
-  {
-    name: "v-579bc774",
-    path: "/memos/conventions-de-nommage-laravel.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-579bc774").then(next)
     },
   },
   {
@@ -65,11 +65,11 @@ export const routes = [
     },
   },
   {
-    name: "v-192ab510",
-    path: "/memos/afficher-des-donnees-dans-une-vue.html",
+    name: "v-579bc774",
+    path: "/memos/conventions-de-nommage-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-192ab510").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-579bc774").then(next)
     },
   },
   {
@@ -89,14 +89,6 @@ export const routes = [
     },
   },
   {
-    name: "v-48b59890",
-    path: "/memos/creer-et-retourner-des-reponses.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-48b59890").then(next)
-    },
-  },
-  {
     name: "v-5e6cf518",
     path: "/memos/creer-un-controleur-sur-laravel.html",
     component: GlobalLayout,
@@ -105,19 +97,11 @@ export const routes = [
     },
   },
   {
-    name: "v-31b31e98",
-    path: "/memos/creer-un-modele-laravel.html",
+    name: "v-48b59890",
+    path: "/memos/creer-et-retourner-des-reponses.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-31b31e98").then(next)
-    },
-  },
-  {
-    name: "v-6fd9aa90",
-    path: "/memos/eager-loading-laravel.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6fd9aa90").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-48b59890").then(next)
     },
   },
   {
@@ -129,11 +113,19 @@ export const routes = [
     },
   },
   {
-    name: "v-b1316ed0",
-    path: "/memos/faire-une-requete-vers-la-base-de-donnees.html",
+    name: "v-6fd9aa90",
+    path: "/memos/eager-loading-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b1316ed0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6fd9aa90").then(next)
+    },
+  },
+  {
+    name: "v-31b31e98",
+    path: "/memos/creer-un-modele-laravel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-31b31e98").then(next)
     },
   },
   {
@@ -145,19 +137,19 @@ export const routes = [
     },
   },
   {
-    name: "v-73221810",
-    path: "/memos/les-controleurs-laravel.html",
+    name: "v-0f9291fa",
+    path: "/memos/enregistrer-des-donnees-dans-une-table.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-73221810").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0f9291fa").then(next)
     },
   },
   {
-    name: "v-0c8c7818",
-    path: "/memos/migration.html",
+    name: "v-b1316ed0",
+    path: "/memos/faire-une-requete-vers-la-base-de-donnees.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0c8c7818").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b1316ed0").then(next)
     },
   },
   {
@@ -177,27 +169,35 @@ export const routes = [
     },
   },
   {
+    name: "v-0c8c7818",
+    path: "/memos/migration.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0c8c7818").then(next)
+    },
+  },
+  {
+    name: "v-73221810",
+    path: "/memos/les-controleurs-laravel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-73221810").then(next)
+    },
+  },
+  {
+    name: "v-51340278",
+    path: "/memos/ne-pas-echapper-les-caracteres-speciaux-laravel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-51340278").then(next)
+    },
+  },
+  {
     name: "v-f1b79d68",
     path: "/memos/pagination-laravel.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-f1b79d68").then(next)
-    },
-  },
-  {
-    name: "v-0f9291fa",
-    path: "/memos/enregistrer-des-donnees-dans-une-table.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0f9291fa").then(next)
-    },
-  },
-  {
-    name: "v-d5dc8210",
-    path: "/memos/se-reperer-dans-une-relation-entre-les-tables.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d5dc8210").then(next)
     },
   },
   {
@@ -209,11 +209,19 @@ export const routes = [
     },
   },
   {
-    name: "v-1e4c37d0",
-    path: "/memos/supprimer-un-enregistrement-dans-la-base-de-donnees.html",
+    name: "v-706be1b8",
+    path: "/memos/se-connecter-a-mysql-et-creer-une-base-de-donnees.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1e4c37d0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-706be1b8").then(next)
+    },
+  },
+  {
+    name: "v-d5dc8210",
+    path: "/memos/se-reperer-dans-une-relation-entre-les-tables.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d5dc8210").then(next)
     },
   },
   {
@@ -225,11 +233,11 @@ export const routes = [
     },
   },
   {
-    name: "v-706be1b8",
-    path: "/memos/se-connecter-a-mysql-et-creer-une-base-de-donnees.html",
+    name: "v-1e4c37d0",
+    path: "/memos/supprimer-un-enregistrement-dans-la-base-de-donnees.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-706be1b8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1e4c37d0").then(next)
     },
   },
   {

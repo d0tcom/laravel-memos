@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Laravel Mémos",
+  title: "Laravel Memorandum",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -39,6 +39,8 @@ module.exports = {
     editLinkText: "Modifier ou contribuer à cette page.",
     lastUpdated: "Dernière modification",
     smoothScroll: true,
+    nextLinks: false,
+    prevLinks: false,
     nav: [
       {
         text: "Laravel",
@@ -114,6 +116,7 @@ module.exports = {
           children: [
             "conventions-de-nommage-laravel",
             "se-reperer-dans-une-relation-entre-les-tables",
+            "ne-pas-echapper-les-caracteres-speciaux-laravel",
           ],
         },
       ],

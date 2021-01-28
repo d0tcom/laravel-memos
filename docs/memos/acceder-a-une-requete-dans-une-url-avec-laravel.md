@@ -4,11 +4,16 @@ Si vous souhaitez gérer une ou plusieurs requêtes qui seraient passées dans u
 
 http://monsite.com/voitures?marque=bmw
 
-Pour ajouter des requêtes, il suffit d'ajouter un &nomdelarequete.
+Ici, la requête est : **?marque=bmw**
+
+::: tip
+Pour ajouter des requêtes, il suffit d'ajouter un **&nomdelarequete**.
+
+:::
 
 http://monsite.com/voitures?marque=bmw&modele=m3
 
-Vous pouvez utiliser la fonction 'request('nomDeLaRequete')' et stocker la valeur de cette requête dans une variable pour l'afficher par exemple.
+Vous pouvez utiliser le helper **request('nomDeLaRequete')** et stocker la valeur de cette requête dans une variable pour l'afficher par exemple.
 
 ```php
 Route::get('/voitures', function () {
@@ -23,7 +28,7 @@ Route::get('/voitures', function () {
 })
 ```
 
-## Accéder à la variable dans une view
+## Afficher la requête dans une vue
 
 Pour afficher par exemple cette requête dans 'voitures.blade.php' que vous avez stocker dans une variable :
 
@@ -34,13 +39,6 @@ Pour afficher par exemple cette requête dans 'voitures.blade.php' que vous avez
 </div>
 ```
 
-### Ne pas échapper les caractères spéciaux
+## Liens utiles
 
-Si vous voulez ne pas échapper les caractères spéciaux dans une requête URL, vous pouvez faire comme ça :
-(si par exemple vous allez chercher du HTML depuis votre BDD, pour cette raison vous allez vouloir l'afficher dans le navigateur)
-
-```html
-<div>
-  <p>Nom : {!! $name !!}</p>
-</div>
-```
+[Documentation de Laravel - Le helper request()](https://laravel.com/docs/8.x/helpers#method-request)

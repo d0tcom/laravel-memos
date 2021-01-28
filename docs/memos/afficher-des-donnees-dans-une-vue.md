@@ -2,7 +2,7 @@
 
 ## Depuis une route
 
-Si par exemple vous voulez afficher une liste d'articles dans une vue qui sont dans une table 'articles'.
+Si par exemple vous voulez afficher une liste d'articles dans une vue qui sont dans une table **articles**.
 
 Vous allez retourner dans une route : la vue qui va être affichée mais aussi des données avec elle :
 
@@ -17,7 +17,7 @@ Route::get('/news', function () {
 });
 ```
 
-'Article' est un modèle qui sert aux articles. Dans cet exemple, nous prenons (**take()**) les 3 derniers (**latest()**) articles dans la table.
+**Article** est un modèle qui sert aux articles. Dans cet exemple, nous prenons **take()** les 3 derniers **latest()** articles dans la table et nous les affichons dans la vue.
 
 ```html
 <ul class="style1">

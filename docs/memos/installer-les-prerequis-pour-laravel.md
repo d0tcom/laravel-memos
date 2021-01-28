@@ -5,8 +5,8 @@
 Vous aurez besoin d'installer PHP et MySQL.
 Un des moyens très simple pour le faire est d'installer Laragon ou encore XAMPP.
 
-[Télécharger XAMPP](https://www.apachefriends.org/fr/index.html)
-[Télécharger Laragon](https://laragon.org/download/)
+- [Télécharger XAMPP](https://www.apachefriends.org/fr/index.html)
+- [Télécharger Laragon](https://laragon.org/download/)
 
 ## Installer Composer
 

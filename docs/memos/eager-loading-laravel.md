@@ -1,8 +1,8 @@
 # Le Eager Loading
 
-Laravel nous permet d'intéroger le modèle parent pour accèder à ses enfants. (par exemple le modèle parent 'Book' et son enfant 'Author')
+Laravel nous permet d'intéroger le modèle parent pour accèder à ses enfants. (par exemple le modèle parent **Book** et son enfant **Author**)
 
-Ci-dessous, le modèle 'Book'. Il appartient à un 'Author'.
+Ci-dessous, le modèle **Book**. Il appartient à un **Author**.
 
 ```php
 class Book extends Model

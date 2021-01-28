@@ -2,7 +2,7 @@
 
 ## CSS Vanilla
 
-Si vous voulez utiliser du CSS très simplement dans laravel, il suffit de créer un fichier 'main.css' dans le dossier 'public/css/'.
+Si vous voulez utiliser du CSS très simplement dans laravel, il suffit de créer un fichier **main.css** dans le dossier **public/css/**.
 
 ```
 public
@@ -16,4 +16,4 @@ public
 
 ## Utiliser SASS
 
-à venir.
+Bientôt...

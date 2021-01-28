@@ -1,13 +1,13 @@
 # Migration
 
-Une migration permet de créer et de mettre à jour un schéma de base de données. Autrement dit, vous pouvez créer des tables, des colonnes dans ces tables, en supprimer, créer des index… Tout ce qui concerne la maintenance de vos tables peut être pris en charge par cet outil. Vous avez ainsi un suivi de vos modifications.
+Les migrations vous permettent de définir un schéma de base de donnée pour votre application. Vous pouvez y ajouter, modifier, une table, des colonnes à l'intérieur de ces tables... Pour maintenir et gérer votre base de donnée, on utilisera les migrations.
 
-Les migrations dans notre projet se situent dans le dossier database/migrations/ Il y en a 3 par défaut.
+Les migrations dans notre projet se situent dans le dossier **database/migrations/** Il y en a 3 par défaut.
 
 Chaque migration est un fichier .php dans lequel se situe une classe.
 
-La fonction up() va permettre de créer la table et définir sa structure.
-La fonction down() va permettre de supprimer la table.
+- La fonction **up()** crée la table et définie sa structure.
+- La fonction **down()** supprime la table.
 
 ## Créer une migration
 
@@ -26,7 +26,7 @@ $table->string('marque');
 $table->string('modele');
 ```
 
-```php
+```php{13,14}
 class CreateVoituresTable extends Migration
 {
     /**
@@ -65,13 +65,13 @@ php artisan migrate:refresh
 
 ## Actualiser/Lancer une nouvelle migration
 
-Pour lancer une nouvelle migration dans la BDD, tapez :
+Pour lancer une nouvelle migration dans la base de données, tapez :
 
 ```
 php artisan migrate
 ```
 
-Cela va ajouter toutes les tables crées à la BDD.
+Cela va ajouter toutes les tables crées à la base de données.
 
 ## Ajouter une NOUVELLE colonne (sans prendre de risque)
 

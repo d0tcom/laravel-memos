@@ -1,7 +1,7 @@
 # Conventions de nommage Laravel
 
 ::: tip
-Ces conventions ne sont pas obligatoires mais sont utilisées par beaucoup de programmeurs.
+Ces conventions ne sont pas obligatoires mais sont utilisées par beaucoup de développeurs.
 :::
 
 Elles sont utilisées pour garder nos fichiers, méthodes, routes etc. logiques, organisés et facile à comprendre pour nous-même ou pour les autres.
@@ -29,10 +29,10 @@ Par exemple :
 
 Pour les actions (méthodes) (Resful Controller Actions).
 
-- 'index' va montrer **tous les enregistrements** ou du moins une grande partie sur la page.
-- 'show' va montrer **seulement un enregistrement** grâce à son id par exemple sur la page.
-- 'create' si nous avons **un formulaire pour ajouter** un nouvel enregistrement à la BDD.
-- 'store' va **prendre les données du formulaire en POST** pour les **sauvegarder dans la BDD**.
-- 'destroy' va **prendre un enregistrement** grâce à son id pour le supprimer dans la BDD.
-- 'edit' va **afficher une vue pour éditer** un enregistrement existant.
-- 'update'
+- **index** va montrer **tous les enregistrements** ou du moins une grande partie sur la page.
+- **show** va montrer **seulement un enregistrement** grâce à son id par exemple sur la page.
+- **create** si nous avons **un formulaire pour ajouter** un nouvel enregistrement à la base de données.
+- **store** va **prendre les données du formulaire en POST** pour les **sauvegarder dans la base de données**.
+- **destroy** va **prendre un enregistrement** grâce à son id pour le supprimer dans la base de données.
+- **edit** va **afficher une vue pour éditer** un enregistrement existant.
+- **update** va **mettre à jour un enregistrement** dans la base de données.

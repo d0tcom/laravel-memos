@@ -10,7 +10,7 @@ Tapez dans l'invite de commande :
 laravel new nomdevotreprojet
 ```
 
-Cela va prendre un peu de temps pour créer tous les dossiers etc.
+Cela va prendre un peu de temps pour créer tous la structure, les dossiers etc.
 
 Vous pourrez ensuite vous rendre dans le dossier "nomdevotreprojet" avec votre éditeur.
 
@@ -20,6 +20,12 @@ Pour lancer un serveur de développement pour voir votre projet en ligne, tapez 
 
 ```
 php artisan serve
+```
+
+Par défaut le port utilisé par ce serveur est le port 8000. Si vous utilisez déjà ce port, vous pouvez spécifier dans la commande celui que vous voulez utiliser grâce au flag **--port=8080** par exemple.
+
+```
+php artisan serve --port=8080
 ```
 
 ## Liens utiles

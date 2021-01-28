@@ -1,6 +1,6 @@
 # Enregistrer des données dans une table
 
-On va utiliser le Modele 'Voiture' à l'intérieur de notre contrôleur 'VoitureController' :
+On va utiliser le Modele **Voiture** à l'intérieur de notre contrôleur **VoitureController** :
 
 ```php
 public function store()
@@ -17,13 +17,13 @@ public function store()
     }
 ```
 
-Dans ces propriété **on va injecter les données du formulaire** qui ont été envoyé grâce à la méthode **'request('marque')'** par exemple.
+Dans ces propriété **on va injecter les données du formulaire** qui ont été envoyé grâce à la méthode **request('marque')** par exemple.
 
 ```php
 $voiture->marque = request('marque');
 ```
 
-Ensuite, nous allons sauvegarder ces propriété dans la BDD grâce à :
+Ensuite, nous allons sauvegarder ces propriété dans la base de données grâce à :
 
 ```php
 $voiture->save();
