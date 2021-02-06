@@ -4,7 +4,7 @@ Ouvrez votre éditeur de code préféré et allez dans votre dossier où sont si
 
 ## Créer un projet
 
-Tapez dans l'invite de commande :
+__Avec l'installeur :__  Tapez dans l'invite de commande :
 
 ```
 laravel new nomdevotreprojet
@@ -13,6 +13,16 @@ laravel new nomdevotreprojet
 Cela va prendre un peu de temps pour créer tous la structure, les dossiers etc.
 
 Vous pourrez ensuite vous rendre dans le dossier "nomdevotreprojet" avec votre éditeur.
+
+__Avec Composer :__ Si vous n'avez pas installé l'installeur Laravel, vous pouvez également créer votre projet via composer :
+
+```
+composer create-project laravel/laravel nomdevotreprojet --prefer-dist
+```
+
+__Avec Laragon :__
+Directement par le menu,
+ Menu -> "Créer un site web rapidement" -> "Laravel"
 
 ## Lancer un serveur de développement
 
@@ -27,6 +37,10 @@ Par défaut le port utilisé par ce serveur est le port 8000. Si vous utilisez d
 ```
 php artisan serve --port=8080
 ```
+__Avec Laragon :__
+L'avantage de Laragon est qu'il créée automatiquement un hôte virtuel (de type http: // nomdevotreprojet.test) pour chaque nouveau projet (Vous devrez peut-être appuyez sur Stop puis Start pour que l(hôte soit actif)
+Le serveur est alors accessible via le menu de laragon :
+ Menu -> "www" -> nomdevotreprojet
 
 ## Liens utiles
 
