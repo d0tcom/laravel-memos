@@ -4,7 +4,7 @@
 
 Il y a un dossier **/routes**, dans le fichier web.php vous pouvez créer des routes. (GET, POST etc.)
 
-Pour créer une route vers l'acceuil par exemple :
+Pour créer une route vers l'accueil par exemple :
 
 ```php
 Route::get('/', function () {
@@ -13,7 +13,7 @@ Route::get('/', function () {
 ```
 
 **return view('welcome');** va retourner une vue qui s'appelle 'welcome' et qui se trouve dans le dossier **'resources/views/welcome.blade.php'**.
-Cette route vous amènera vers 'localhost/' (acceuil)
+Cette route vous amènera vers 'localhost/' (accueil)
 
 Un autre exemple :
 
@@ -25,9 +25,9 @@ Route::get('/contact', function () {
 
 Celle-ci vous amènera vers **'localhost/contact'** (une page de contact par exemple)
 
-## Passer des données à une la route
+## Passer des données à une route
 
-Vous pouvez passez des données à travers cette route. Par exemple :
+Vous pouvez passer des données à travers cette route. Par exemple :
 
 ```php
 Route::get('/contact', function () {
@@ -42,7 +42,7 @@ Route::get('/contact', function () {
 
 ### Afficher les données sur une vue
 
-Pour afficher ces données sur votre view 'contact.blade.php', vous pouvez utilisez des doubles '{' '}' entre les balises HTML.
+Pour afficher ces données sur votre vue 'contact.blade.php', vous pouvez utiliser des doubles '{' '}' entre les balises HTML.
 
 ```php
 <div>
@@ -71,7 +71,7 @@ return view('post', [
 ]);
 ```
 
-Créer une nouvelle view 'posts.blade.php' dans le dossier 'resources/views'
+Créer une nouvelle vue 'posts.blade.php' dans le dossier 'resources/views'
 
 ```html
 <div>
