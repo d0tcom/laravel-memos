@@ -50,7 +50,7 @@ Dans ce fichier **layout.blade.php**, vous allez pouvoir insérer le layout que 
 </html>
 ```
 
-**@yield('content')** vous permettra d'importer une section que vous avez appeller **content** et qui se trouve dans une autre vue par exemple.
+**@yield('content')** vous permettra d'importer une section que vous avez appellé **content** et qui se trouve dans une autre vue par exemple.
 
 ### Utiliser un layout dans une vue
 
