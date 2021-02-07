@@ -3,7 +3,7 @@
 ## Installer PHP et MySQL (simplement)
 
 Vous aurez besoin d'installer PHP et MySQL.
-Un des moyens très simple pour le faire est d'installer Laragon ou encore XAMPP.
+Un des moyens très simples pour le faire est d'installer Laragon ou encore XAMPP.
 
 - [Télécharger XAMPP](https://www.apachefriends.org/fr/index.html)
 - [Télécharger Laragon](https://laragon.org/download/)
@@ -15,7 +15,7 @@ Composer est un gestionnaire de paquets pour PHP, il permet d'installer des pack
 
 [Télécharger Composer](https://getcomposer.org/)
 
-Vérifier que composer est installer, tapez dans l'invite de commande :
+Vérifiez que composer est installé, tapez dans l'invite de commande :
 
 ```
 composer -V
