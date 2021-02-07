@@ -1,6 +1,6 @@
 # Introduction
 
-Bienvenue sur **Laravel Memorandum**, ce site a pour vocation de regrouper des astuces, mémos et petits exemples pour la communauté francophone de Laravel..
+Bienvenue sur **Laravel Memorandum**, ce site a pour vocation de regrouper des astuces, mémos et petits exemples pour la communauté francophone de Laravel.
 
 Il y a toujours de nouvelles choses à apporter, modifier, suggérer ou corriger.
 
