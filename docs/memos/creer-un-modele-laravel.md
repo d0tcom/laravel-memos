@@ -20,7 +20,7 @@ use App\Models\Voitures
 php artisan make:model Voiture -c
 ```
 
-## Avec son contrôleur de ressources CRUD
+## Avec son contrôleur de ressources (CRUD)
 
 ```
 php artisan make:model Voiture -r
