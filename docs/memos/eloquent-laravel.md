@@ -1,14 +1,14 @@
 # Eloquent
 
-**Eloquent est une manière plus simple et plus propre que le Query Builder pour faire des requêtes SQL. Cela permet entre autre de simplifier les opérations sur la base de donnée.**
+**Eloquent est une manière plus simple et plus propre que le Query Builder pour faire des requêtes SQL. Cela permet entre autre de simplifier les opérations sur la base de données.**
 
-Nous avons crée notre base de donnée et utilisé les migrations pour créer une ou plusieurs tables.
+Nous avons créé notre base de données et utilisé les migrations pour créer une ou plusieurs tables.
 
-Maintenant, **nous voulons enregistré des données dans ces tables**.
+Maintenant, **nous voulons enregistrer des données dans ces tables**.
 
 Par exemple, dans la table 'voitures', nous voulons enregistrer des voitures.
 
-On veut pouvoir intéragir avec ces données, obtenir des données, sauvegarder des données, mettre à jour des données etc.
+On veut pouvoir interagir avec ces données, obtenir des données, sauvegarder des données, mettre à jour des données etc.
 
 - [Enregistrer des données dans une table](/memos/enregistrer-des-donnees-dans-une-table/)
 - [Supprimer des données dans une table](/memos/supprimer-un-enregistrement-dans-la-base-de-donnees/)
