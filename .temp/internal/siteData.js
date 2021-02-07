@@ -30,22 +30,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/laravel-logo.svg",
-        "tagline": "Mémos, astuces, exemples pour la communauté francophone du framework Laravel.",
-        "actionText": "Consulter les mémos →",
-        "actionLink": "/memos/",
-        "footer": "Made by Jo with ❤️"
-      },
-      "regularPath": "/",
-      "relativePath": "index.md",
-      "key": "v-9e14a9c4",
-      "path": "/",
-      "lastUpdated": "1/28/2021, 2:08:09 PM"
-    },
-    {
       "title": "Introduction",
       "frontmatter": {},
       "regularPath": "/memos/",
@@ -113,6 +97,22 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/assets/img/laravel-logo.svg",
+        "tagline": "Mémos, astuces, exemples pour la communauté francophone du framework Laravel.",
+        "actionText": "Consulter les mémos →",
+        "actionLink": "/memos/",
+        "footer": "Made by the community with ❤️"
+      },
+      "regularPath": "/",
+      "relativePath": "index.md",
+      "key": "v-9e14a9c4",
+      "path": "/",
+      "lastUpdated": "1/28/2021, 2:08:09 PM"
+    },
+    {
       "title": "Afficher des données dynamiquement dans une vue",
       "frontmatter": {},
       "regularPath": "/memos/afficher-des-donnees-dans-une-vue.html",
@@ -139,6 +139,27 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
+      "title": "Conventions de nommage Laravel",
+      "frontmatter": {},
+      "regularPath": "/memos/conventions-de-nommage-laravel.html",
+      "relativePath": "memos/conventions-de-nommage-laravel.md",
+      "key": "v-579bc774",
+      "path": "/memos/conventions-de-nommage-laravel.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Le modèle",
+          "slug": "le-modele"
+        },
+        {
+          "level": 2,
+          "title": "Les contrôleurs",
+          "slug": "les-controleurs"
+        }
+      ],
+      "lastUpdated": "1/28/2021, 2:08:09 PM"
+    },
+    {
       "title": "Créer des layouts",
       "frontmatter": {},
       "regularPath": "/memos/creer-des-layouts-laravel.html",
@@ -160,27 +181,6 @@ export const siteData = {
           "level": 2,
           "title": "Liens utiles",
           "slug": "liens-utiles"
-        }
-      ],
-      "lastUpdated": "1/28/2021, 2:08:09 PM"
-    },
-    {
-      "title": "Conventions de nommage Laravel",
-      "frontmatter": {},
-      "regularPath": "/memos/conventions-de-nommage-laravel.html",
-      "relativePath": "memos/conventions-de-nommage-laravel.md",
-      "key": "v-579bc774",
-      "path": "/memos/conventions-de-nommage-laravel.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Le modèle",
-          "slug": "le-modele"
-        },
-        {
-          "level": 2,
-          "title": "Les contrôleurs",
-          "slug": "les-controleurs"
         }
       ],
       "lastUpdated": "1/28/2021, 2:08:09 PM"
@@ -283,12 +283,12 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
-      "title": "Enregistrer des données dans une table",
+      "title": "Le Eager Loading",
       "frontmatter": {},
-      "regularPath": "/memos/enregistrer-des-donnees-dans-une-table.html",
-      "relativePath": "memos/enregistrer-des-donnees-dans-une-table.md",
-      "key": "v-0f9291fa",
-      "path": "/memos/enregistrer-des-donnees-dans-une-table.html",
+      "regularPath": "/memos/eager-loading-laravel.html",
+      "relativePath": "memos/eager-loading-laravel.md",
+      "key": "v-6fd9aa90",
+      "path": "/memos/eager-loading-laravel.html",
       "headers": [
         {
           "level": 2,
@@ -325,15 +325,6 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
-      "title": "Faire une requête (Query Builder)",
-      "frontmatter": {},
-      "regularPath": "/memos/faire-une-requete-vers-la-base-de-donnees.html",
-      "relativePath": "memos/faire-une-requete-vers-la-base-de-donnees.md",
-      "key": "v-b1316ed0",
-      "path": "/memos/faire-une-requete-vers-la-base-de-donnees.html",
-      "lastUpdated": "1/28/2021, 11:09:39 AM"
-    },
-    {
       "title": "Eloquent",
       "frontmatter": {},
       "regularPath": "/memos/eloquent-laravel.html",
@@ -350,12 +341,12 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
-      "title": "Le Eager Loading",
+      "title": "Enregistrer des données dans une table",
       "frontmatter": {},
-      "regularPath": "/memos/eager-loading-laravel.html",
-      "relativePath": "memos/eager-loading-laravel.md",
-      "key": "v-6fd9aa90",
-      "path": "/memos/eager-loading-laravel.html",
+      "regularPath": "/memos/enregistrer-des-donnees-dans-une-table.html",
+      "relativePath": "memos/enregistrer-des-donnees-dans-une-table.md",
+      "key": "v-0f9291fa",
+      "path": "/memos/enregistrer-des-donnees-dans-une-table.html",
       "headers": [
         {
           "level": 2,
@@ -364,6 +355,15 @@ export const siteData = {
         }
       ],
       "lastUpdated": "1/28/2021, 2:08:09 PM"
+    },
+    {
+      "title": "Faire une requête (Query Builder)",
+      "frontmatter": {},
+      "regularPath": "/memos/faire-une-requete-vers-la-base-de-donnees.html",
+      "relativePath": "memos/faire-une-requete-vers-la-base-de-donnees.md",
+      "key": "v-b1316ed0",
+      "path": "/memos/faire-une-requete-vers-la-base-de-donnees.html",
+      "lastUpdated": "1/28/2021, 11:09:39 AM"
     },
     {
       "title": "Gérer le CSS",
@@ -418,6 +418,37 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
+      "title": "Les contrôleurs",
+      "frontmatter": {},
+      "regularPath": "/memos/les-controleurs-laravel.html",
+      "relativePath": "memos/les-controleurs-laravel.md",
+      "key": "v-73221810",
+      "path": "/memos/les-controleurs-laravel.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Créer un contrôleur",
+          "slug": "creer-un-controleur"
+        },
+        {
+          "level": 2,
+          "title": "Modifier un contrôleur",
+          "slug": "modifier-un-controleur"
+        },
+        {
+          "level": 2,
+          "title": "Définir le contrôleur dans la route",
+          "slug": "definir-le-controleur-dans-la-route"
+        },
+        {
+          "level": 2,
+          "title": "Liens utiles",
+          "slug": "liens-utiles"
+        }
+      ],
+      "lastUpdated": "1/28/2021, 11:09:39 AM"
+    },
+    {
       "title": "Migration",
       "frontmatter": {},
       "regularPath": "/memos/migration.html",
@@ -459,37 +490,6 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
-      "title": "Les contrôleurs",
-      "frontmatter": {},
-      "regularPath": "/memos/les-controleurs-laravel.html",
-      "relativePath": "memos/les-controleurs-laravel.md",
-      "key": "v-73221810",
-      "path": "/memos/les-controleurs-laravel.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Créer un contrôleur",
-          "slug": "creer-un-controleur"
-        },
-        {
-          "level": 2,
-          "title": "Modifier un contrôleur",
-          "slug": "modifier-un-controleur"
-        },
-        {
-          "level": 2,
-          "title": "Définir le contrôleur dans la route",
-          "slug": "definir-le-controleur-dans-la-route"
-        },
-        {
-          "level": 2,
-          "title": "Liens utiles",
-          "slug": "liens-utiles"
-        }
-      ],
-      "lastUpdated": "1/28/2021, 11:09:39 AM"
-    },
-    {
       "title": "Ne pas échapper les caractères spéciaux",
       "frontmatter": {},
       "regularPath": "/memos/ne-pas-echapper-les-caracteres-speciaux-laravel.html",
@@ -515,37 +515,12 @@ export const siteData = {
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
-      "title": "Se repérer dans une relation entre des tables",
-      "frontmatter": {},
-      "regularPath": "/memos/se-reperer-dans-une-relation-entre-les-tables.html",
-      "relativePath": "memos/se-reperer-dans-une-relation-entre-les-tables.md",
-      "key": "v-d5dc8210",
-      "path": "/memos/se-reperer-dans-une-relation-entre-les-tables.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Liens utiles",
-          "slug": "liens-utiles"
-        }
-      ],
-      "lastUpdated": "1/28/2021, 11:09:39 AM"
-    },
-    {
       "title": "Query Builder",
       "frontmatter": {},
       "regularPath": "/memos/query-builder-laravel.html",
       "relativePath": "memos/query-builder-laravel.md",
       "key": "v-c48dc6d0",
       "path": "/memos/query-builder-laravel.html",
-      "lastUpdated": "1/28/2021, 2:08:09 PM"
-    },
-    {
-      "title": "Seeding",
-      "frontmatter": {},
-      "regularPath": "/memos/seeding-laravel.html",
-      "relativePath": "memos/seeding-laravel.md",
-      "key": "v-6b7b3838",
-      "path": "/memos/seeding-laravel.html",
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
@@ -577,6 +552,31 @@ export const siteData = {
           "slug": "liens-utiles"
         }
       ],
+      "lastUpdated": "1/28/2021, 2:08:09 PM"
+    },
+    {
+      "title": "Se repérer dans une relation entre des tables",
+      "frontmatter": {},
+      "regularPath": "/memos/se-reperer-dans-une-relation-entre-les-tables.html",
+      "relativePath": "memos/se-reperer-dans-une-relation-entre-les-tables.md",
+      "key": "v-d5dc8210",
+      "path": "/memos/se-reperer-dans-une-relation-entre-les-tables.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Liens utiles",
+          "slug": "liens-utiles"
+        }
+      ],
+      "lastUpdated": "1/28/2021, 11:09:39 AM"
+    },
+    {
+      "title": "Seeding",
+      "frontmatter": {},
+      "regularPath": "/memos/seeding-laravel.html",
+      "relativePath": "memos/seeding-laravel.md",
+      "key": "v-6b7b3838",
+      "path": "/memos/seeding-laravel.html",
       "lastUpdated": "1/28/2021, 2:08:09 PM"
     },
     {
