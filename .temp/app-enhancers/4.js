@@ -1,1 +1,0 @@
-export { default } from "C:\\Users\\jlebr\\Desktop\\laravel-memos\\node_modules\\@vuepress\\plugin-back-to-top\\enhanceAppFile.js"
